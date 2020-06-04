@@ -54,7 +54,7 @@ Var StartMenuFolder
   !insertmacro MUI_PAGE_DIRECTORY
   
   ;Start Menu Folder Page Configuration
-  !define MUI_STARTMENUPAGE_REGISTRY_ROOT "HKCU" 
+  !define MUI_STARTMENUPAGE_REGISTRY_ROOT "HKLM" 
   !define MUI_STARTMENUPAGE_REGISTRY_KEY "Software\Xournalpp" 
   !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME "Xournal++"
   
